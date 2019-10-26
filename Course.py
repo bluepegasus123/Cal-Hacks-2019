@@ -5,4 +5,4 @@ class Course:
 		self.instructor = instructor
 		self.section = section
 		self.time = time
-	print("helllo")
+	

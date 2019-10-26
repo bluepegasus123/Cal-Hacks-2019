@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <title>Questionaire Form</title>
+</head>
+<body>
+  <h1>Student Form Fillout</h1>
+  <form id="student-form">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Full Name</label>
+      <input type="text" class="form-control" id="fName">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email Address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Residence Hall</label>
+      <select class="form-control" id="resHall">
+        <option value="Unit-1">Unit 1</option>
+        <option value="Unit-2">Unit 2</option>
+        <option value="Unit-3">Unit 3</option>
+        <option value="Clark-Kerr">Clark Kerr</option>
+        <option value="Blackwell">Blackwell</option>
+        <option value="Foothill">Foothill</option>
+        <option value="Stern">Stern</option>
+        <option value="Off-Campus">Off-Campus</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <button type="button" class="btn btn-primary" class="form-control" id="submit">Submit</button>
+    </div>
+    <div class="form-group" id="course-codes">
+    </div>
+  </form>
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+  <script type="text/javascript" src="inputDB.js"></script>
+</body>
+</html>
